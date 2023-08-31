@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+}
+
+.header {
+    background-color: rgb(122, 122, 122);
+    color: black;
+    text-align: center;
+    width: calc(100% - 2px) ;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border: 1px solid rgb(55, 0, 80);
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+.flex-item {
+    flex: 1;
+    border: 1px solid rgb(201, 201, 201);
+    padding: 1rem;
+    min-width: 465px;
+    min-height: 100px;
+}
+.footer {
+    background-color: rgb(122, 122, 122);
+    color: black;
+    text-align: center;
+    padding: 2rem;
+    bottom: 0;
+    width: calc(100% - 4rem - 2px) ;
+    position: absolute;
+    border: 1px solid rgb(55, 0, 80);
+}
+.copyright {
+    font-style: italic;
+    color: white;
+}
+.titulo:hover {
+    background-color: black;
+}
